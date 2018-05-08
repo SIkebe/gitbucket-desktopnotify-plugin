@@ -7,7 +7,7 @@ lazy val root = (project in file(".")).enablePlugins(SbtTwirl)
 organization := Organization
 name := ProjectName
 version := ProjectVersion
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.6"
 gitbucketVersion := "4.24.1"
 
 scalacOptions := Seq("-deprecation", "-feature", "-language:postfixOps", "-Ydelambdafy:method", "-target:jvm-1.8")
